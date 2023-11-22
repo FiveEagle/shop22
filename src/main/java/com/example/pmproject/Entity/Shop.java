@@ -13,7 +13,7 @@ import java.util.List;
 @Builder
 @Table(name = "shop")
 @SequenceGenerator(sequenceName = "shop_SEQ", name = "shop_SEQ", allocationSize = 1)
-public class Shop extends BaseEntity{
+public class Shop extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "shop_SEQ")
